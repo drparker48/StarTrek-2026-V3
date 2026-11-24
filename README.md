@@ -1,7 +1,13 @@
-# Project Title
+# Super Star Trek
 
 ## Overview
-A brief description of the project goes here.
+This is a conversion from BASIC to SwiftUI of Super Star Trek based on the listing from David Ahl's 1973 book Basic Computer Games which contained type-in games in Microsoft BASIC.
+
+The conversion runs on the iPad and aims to be authentic by presenting output from the program as it would have done on early microcomputers that were only able to display text and simple graphics on their screens.
+
+Where it strays from the original is in the way that it handles navigation and that it adds two new challenges in the form of Romulan warships and attacks on Starbases.
+
+A new version is being developed which is still based on the original BASIC listing but takes full advantage of SwiftUI display capabilities on the iPad.
 
 ## Requirements
 - Xcode 15 or later  
