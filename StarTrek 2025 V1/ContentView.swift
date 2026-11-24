@@ -1,24 +1,40 @@
 //
 //  ContentView.swift
-//  StarTrek 2025 V1
+//  StarTrekV08
 //
-//  Created by David Parker on 08/05/2025.
+//  Created by David Parker on 04/05/2024.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var gameState = Game()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+      
+        ZStack {
+            // Background Color
+            Color("BackgroundColour")
+                .edgesIgnoringSafeArea(.all)
+            
+            // Main Screen View
+            MainScreenView(game: $gameState)
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            // Light Color Scheme Preview
+            ContentView()
+                .previewInterfaceOrientation(.landscapeLeft)
+                .preferredColorScheme(.light)
+            
+            // Dark Color Scheme Preview
+            ContentView()
+                .previewInterfaceOrientation(.landscapeLeft)
+                .preferredColorScheme(.dark)
+        }
+    }
 }

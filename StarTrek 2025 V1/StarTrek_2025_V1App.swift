@@ -11,7 +11,7 @@ import SwiftUI
 struct StarTrek_2025_V1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
