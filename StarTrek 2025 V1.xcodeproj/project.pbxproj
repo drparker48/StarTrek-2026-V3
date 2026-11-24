@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		3BD7829B30B5BFF1003C0808 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3BD7829A30B5BFF1003C0808 /* .gitignore */; };
 		3BD7829D30B5BFF2003C0808 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3BD7829C30B5BFF2003C0808 /* README.md */; };
+		3BD7829F30B5D7A9003C0808 /* GitDesktop.md in Resources */ = {isa = PBXBuildFile; fileRef = 3BD7829E30B5D7A9003C0808 /* GitDesktop.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B54FB442DCCD57500EB881F /* StarTrek 2025 V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarTrek 2025 V1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD7829A30B5BFF1003C0808 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3BD7829C30B5BFF2003C0808 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BD7829E30B5D7A9003C0808 /* GitDesktop.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GitDesktop.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -42,6 +44,7 @@
 				3B54FB462DCCD57500EB881F /* StarTrek 2025 V1 */,
 				3BD7829A30B5BFF1003C0808 /* .gitignore */,
 				3BD7829C30B5BFF2003C0808 /* README.md */,
+				3BD7829E30B5D7A9003C0808 /* GitDesktop.md */,
 				3B54FB452DCCD57500EB881F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			files = (
 				3BD7829B30B5BFF1003C0808 /* .gitignore in Resources */,
 				3BD7829D30B5BFF2003C0808 /* README.md in Resources */,
+				3BD7829F30B5D7A9003C0808 /* GitDesktop.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
